@@ -1,0 +1,51 @@
+.content{
+	width: 811px;
+	float: right;
+	margin-top: 62px;
+	margin-right: 69px;
+}
+#map{
+	width: 813px;
+	height: 305px;
+	margin-bottom: 56px;
+}
+.address{
+	float: left;
+}
+.address p{
+	font-size: 14px;
+	margin-bottom: 24px;
+}
+.message{
+	width: 327px;
+	float: right;
+}
+.message form>lable{
+	display: block;
+}
+.message form>lable input{
+	width: 256px;
+	height: 26px;
+	border: 1px solid #ccc;
+}
+.message textarea{
+	width: 256px;
+	height: 103px;
+	border: 1px solid #ccc;
+	vertical-align: top;
+	resize: none;
+}
+.message .sub input{
+	width: 79px;
+	height: 26px;
+	border: 1px solid #ccc;
+}
+.sub img{
+	width: 81px;
+	height: 28px;
+	margin: 0 6px 1px;
+}
+.message .sub [type="submit"]{
+	font-size: 14px;
+	background-color: #99CC33;
+}

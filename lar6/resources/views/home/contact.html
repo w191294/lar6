@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>联系我们</title>
+		<link rel="shortcut icon" href="./favicon.ico">
+		<script src="js/swiper.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/swiper.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=5tHBrR4zXqYbPxLbr0gCB13f22olwwSU"></script>
+		<script src="js/map.js"></script>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="header">
+			<div class="logo">
+				<a href="index.html">
+					<img src="./images/logo.jpg" />
+				</a>
+			</div>
+			<div class="nav">
+				<ul>
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="about.html">关于我们</a>
+					</li>
+					<li>
+						<a href="news.html">新闻中心</a>
+					</li>
+					<li>
+						<a href="product.html">产品中心</a>
+					</li>
+					<li class="active">
+						<a href="contact.html">联系我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- 轮播图 -->
+		<div class="swiper-container banner">
+		  <div class="swiper-wrapper">
+		    <div class="swiper-slide">
+				<img src="images/banner2.jpg" >
+			</div>
+		    <div class="swiper-slide">
+				<img src="images/banner3.jpg" >
+			</div>
+		    <div class="swiper-slide">
+				<img src="images/banner2.jpg" >
+			</div>
+			<div class="swiper-slide">
+				<img src="images/banner3.jpg" >
+			</div>
+		  </div>
+		</div>
+		
+		<!-- 内容 -->
+		<div class="main clearfix">
+			<!-- 面包屑导航 -->
+			<div class="location">
+				<div class="wrap">
+					当前位置:
+					<ul>
+						<li><a href="index.html">首页</a>&gt;</li>
+						<li class="active">联系我们</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 侧边栏 -->
+			<div class="sidebar">
+				<div class="title">
+					<h2>联系我们</h2>
+					<span>CONTACT US</span>
+				</div>
+				<ul>
+					<li class="on"><a href="">公司地图</a></li>
+					<li><a href="">联系方式</a></li>
+					<li><a href="">在线留言</a></li>
+				</ul>
+			</div>
+			<!-- 联系我们 -->
+			<div class="content">
+				<h1>公司地图</h1>
+				<div id="map">
+				</div>
+				<div class="address">
+					<p>公司名称：常州乐农生物科技有限公司</p>
+					<p>邮政编码：213000</p>
+					<p>公司电话：0519-81000692</p>
+					<p>联 系 人 ：左先生 （先生）</p>
+					<p>手机号码：13401666626	</p>
+					<p>电子邮箱：251655302@qq.com</p>
+					<p>公司网址：http://www.88152.com/shop/1945223/</p>
+					<p>公司地址：常州市武进高新区常武南路588号天安数码城C幢509-1室</p>
+				</div>
+				<div class="message">
+					<form action="#" method="">
+						<lable>姓　名：<input type="text" name="usename"/></lable></br>
+						<lable>电　话：<input type="text" name="tel"/></lable></br>
+						<lable>邮　箱：<input type="text" name="email"/></lable></br>
+						<lable>留　言：<textarea></textarea></lable></br>
+						<div class="sub">
+							<lable>验证码：<input type="text" name="code"/></lable>
+								<img src="./images/code_07.jpg" alt="验证码"/>
+								<input type="submit" value="提交"/>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 尾部 -->
+		<div class="footer">
+			<p>Copyright©2008-2017 常州乐农生物科技有限公司版权所有</p>
+		</div>
+		<script>
+			var mySwiper = new Swiper('.swiper-container', {
+				autoplay: true,//可选选项，自动滑动
+				loop:true,
+			})
+		</script>
+	</body>
+</html>

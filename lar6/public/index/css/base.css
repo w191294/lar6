@@ -1,0 +1,120 @@
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 52px 0 63px;
+}
+.location{
+	text-align: right;
+	line-height: 24px;
+	border-bottom: 1px dashed #ccc;
+}
+.location>.wrap{
+	background:no-repeat left center url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAARCAYAAAAyhueAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjYwNUI5M0U5QjgxNTExRUFBMjVEQzgxMzJDMkU1ODE5IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjYwNUI5M0VBQjgxNTExRUFBMjVEQzgxMzJDMkU1ODE5Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjA1QjkzRTdCODE1MTFFQUEyNURDODEzMkMyRTU4MTkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NjA1QjkzRThCODE1MTFFQUEyNURDODEzMkMyRTU4MTkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4eqoITAAADpElEQVR42qRUO4wbVRS9M++Nx54Zj2fGHrNekuzijcNHWiKqiJ+ANEEghJRQRRRpkCIKCoq0KDQUKRAiFCAhGoTEBtGkoACUBgL15qNVEEuUjdf2encnXtsz9ng+nDdxot0F0XDl0bX97jnvfs4d6dKl7ymKIoomEblVl7a2PAoCn3RdJ6tUPCIzfsGyzOO+H9zUCuoTQz+4Oh6H73vb91bCcJLqhkaOY9P6eps451Qo5EmmfZamqXB5hSunLKv0k+OYz6ytNU8vL984trp65y2QNMxS8Uoup5yWJNKm8XtM3k+IwJrrls/XFw595/v+tXZr4zlFUS7Lskxc4T92O1sv+MPg14XD818j7iPADu7nfUgax4kgPOa6lW8OPFo7u77eOddqd18H4d0kSdCimIRXckq72WydQtbvVdzK25WK8y1wzwv8HtIkSTXTNM4YhrZkWUa52Wyf7HS6FwoFlWQmk2HoVK2WyTSLxBmjQj5PrdbGp7dvr72ZgyFuqVg03gGPkZGi5Kdc1/nssYW5ryRJGv1x668TcRz/jGbQYBBQHgSzs4/Q0aNP0tzcAdK0Ao3DsaiK0NdfkPGrkiR36/WDX4Dnc1SzyDHZi8hgMRyHq8NhcHPoD1t+ENBObyB6CPAhtCZG+RNMF2mAbDjwqb8zJLWeo5kZd1OWpesoHzTGK4yxeY6Ay+Px5APHKZ1hTH4cf1IIefV2BlSp2EVU8jQqKEr3TcxymCa03O/3e5wrVKu5BIlVcPD7xsbmRVz7LG/ebX+8iNIY42fTdJQpIIcMRQ9t23xZVdVPoEctDMORoiSqorBxdcY9p6h8KZfjhLMMg2Ty5bL92/UbK1e5UAOAepLEGJqUiUOI2LbzBJ024jiq9fuDDzHEW553b17TtPO48Iiu54FTHug6RYtkTdd0/Bzww435rGf7TcgHgHQymXS8bW8J5H+ib7OY8LvwaRQliNmLETyNRp1k2y7Rf1iKyTIEF0ejkERvsQRCMYnIUCyEJGSwyxzHInm3aKeazZ5pWRlCAOWH4GzrJDFQtCNTxW5ike2eNcVhhA0h8Qg9IqH+P5OXJQAHmEH2Itrc9MQ2RtIuZg6NPfjOMNk5ZPAGyhKLEmMox3GaZGJCHP6X8JnAv4hK7sAzEI9wyQJX2Kp0vzDinrcjfASylWrVOQGiL6eXSpwzrdvdutLrDTzRJsZZD1t0zbat10zTfEmETeWkbm97PyTIOAP+26vr/9rfAgwAtKK9C9h1ZiIAAAAASUVORK5CYII=);
+	padding-left: 28px;
+}
+.location *{
+	display: inline;
+}
+.location ul>li{
+	font-size: 14px;
+}
+.location ul>li a{
+	color: #000;
+}
+.location ul>li a:hover{
+	color: #99CC33;
+}
+.location ul>.active{
+	color: #99CC33;
+}
+.sidebar{
+	width: 249px;
+	float: left;
+	text-align: center;
+	border: 2px solid #d5d5d5;
+	margin-top: 120px;
+	padding-bottom: 8px;
+}
+.sidebar .title{
+	padding: 24px 0;
+}
+.sidebar h2{
+	font-size: 24px;
+	color: #000000;
+	display: inline-block;
+	position: relative;
+}
+.sidebar h2::before{
+	content: '';
+	position: absolute;
+	width: 32px;
+	height: 2px;
+	background-color: #d6d6d6;
+	left: -36px;
+	top: 11px;
+}
+.sidebar h2::after{
+	content: '';
+	position: absolute;
+	width: 32px;
+	height: 2px;
+	background-color: #d6d6d6;
+	right: -36px;
+	top: 11px;
+}
+.sidebar span{
+	font-size: 14px;
+	color: #ccc;
+	display: block;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.sidebar ul>li{
+	width: 249px;
+	font-size: 18px;
+	line-height: 47px;
+	margin-bottom: 20px;
+}
+.sidebar ul>li:hover,.sidebar ul>li.on{
+	background-color: #99CC33;
+}
+.sidebar ul>li a{
+	color: #000000;
+	display: block;
+}
+.article{
+	width: 812px;
+	float: right;
+	margin-top: 62px;
+}
+.content h1{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.page ul{
+	text-align: center;
+	font-size: 0;
+}
+.page ul>li{
+	width: 36px;
+	line-height: 36px;
+	display: inline-block;
+	background-color: #ccc;
+	margin:0 9px;
+}
+.page ul>li a{
+	font-size: 14px;
+	color: #000000;
+	display: block;
+}
+.page ul>li:hover{
+	background-color: #9C3;
+}
+.page ul>.prev,.page ul>.next{
+	width: 55px;
+	margin: 0px;
+}
+.page .on{
+	background-color: #9c3;
+}

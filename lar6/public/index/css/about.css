@@ -1,0 +1,15 @@
+.article h1{
+	font-size: 18px;
+	text-align: center;
+}
+.article img{
+	display: block;
+	margin:41px auto 43px;
+}
+.article p{
+	font-size: 14px;
+	text-indent: 2em;
+	text-align: justify;
+	line-height: 24px;
+	margin-bottom: 26px;
+}

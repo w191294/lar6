@@ -1,0 +1,37 @@
+.content{
+	width: 837px;
+	margin-right: 57px;
+	margin-top: 62px;
+	float: right;
+	overflow: hidden;
+}
+.product{
+	width: 855px;
+	margin: 2px 2px 60px;
+}
+.product li{
+	width: 261px;
+	height: 253px;
+	float: left;
+	margin-bottom: 12px;
+	margin-right: 24px;
+}
+.product img{
+	width: 261px;
+	height: 214px;
+}
+.product p {
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	color: #000;
+}
+.product p a{
+	color: #000;
+}
+.product li:hover img{
+	outline: 2px solid #9c3;
+}
+.product li:hover p a{
+	color: #9c3;
+}

@@ -1,0 +1,37 @@
+.content{
+	width: 878px;
+	float: right;
+	margin-top: 62px;
+}
+.content .article{
+	width: 808px;
+	margin: 0 66px 0 0;
+}
+.article h1{
+	text-align: center;
+	font-size: 18px;
+}
+.article img{
+	display: block;
+	margin: 40px auto 45px;
+}
+.article p{
+	font-size: 14px;
+	line-height: 24px;
+	text-indent: 2em;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+.flip{
+	line-height: 24px;
+	padding-top: 8px;
+}
+.flip a{
+	font-size: 14px;
+	display: block;
+	margin-bottom: 7px;
+	color: #000;
+}
+.flip a:hover{
+	text-decoration: underline;
+}
